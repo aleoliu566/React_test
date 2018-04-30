@@ -1,0 +1,72 @@
+.background{
+  background-color: rgb(239,240,242);
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-navy{
+  background-color: navy;
+}
+
+.bg-orange{
+  background-color: orange;
+}
+.bg-white{
+  background-color: white;
+}
+
+.left-block{
+  display: inline-block;
+  width: 50px;
+  margin: 5px 0;
+}
+
+.right-block{
+  display: inline-block;
+  width: calc( 100% - 50px);
+  margin: 5px 0;
+}
+.w-100{
+  width: 100%;
+}
+.size-block{
+  position: relative;
+}
+.size-block select{
+  height: 30px;
+}
+.color-block{
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border: none;
+}
+.color-block:first-child{
+  margin-left: 0px;
+}
+
+.shoes_number{
+  display: inline-block;
+  width: 50px;
+  height: 28px;
+  text-align: center;
+}
+.counter-block{
+  background-color: white;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.counter-block:focus {
+  outline: 0;
+}
+
+
+
